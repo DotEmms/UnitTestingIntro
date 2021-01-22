@@ -35,8 +35,11 @@ namespace UnitTestingIntroTest
 
             //ASSERT - vergelijk resultaat met verwacht resultaat
             Assert.AreEqual(expectedResult, result);
-            
         }
-       
+        [Test]
+        public void EverythingIsFine()
+        {
+            Assert.True(false);
+        }
     }
 }
