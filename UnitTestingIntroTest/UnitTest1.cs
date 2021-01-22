@@ -35,7 +35,8 @@ namespace UnitTestingIntroTest
 
             //ASSERT - vergelijk resultaat met verwacht resultaat
             Assert.AreEqual(expectedResult, result);
-
+            
         }
+       
     }
 }
